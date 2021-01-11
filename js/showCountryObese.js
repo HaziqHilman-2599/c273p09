@@ -4,7 +4,7 @@ $(document).ready(function () {
         alert("You have selected - " + country);
         $.ajax({
             type: "GET",
-            url: "http://localhost/C273_L09CloudNine/getCountryDetails.php",
+            url: "getCountryDetails.php",
             data: "id=" + country,
             cache: false,
             dataType: "JSON",
